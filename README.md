@@ -1,10 +1,12 @@
 # Solana-encryption
 
+This module can be used to encrypt, decrypt, sign and verify messages using solana keys
+
 ## Encrypt and Decrypt
 
 The encryptDecrypt.js module can be used to encrypt and decrypt a message using solana keypairs.
 
-This code can br tested in the index.js file.
+This code can be tested in the index.js file.
 
 ## Sign and Verify
 
