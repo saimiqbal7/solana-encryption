@@ -6,6 +6,21 @@
   "scripts": {
     "test": "node index.js"
   },
+  "homepage": "https://github.com/saimiqbal7/solana-encryption",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saimiqbal7/solana-encryption"
+  },
+  "keywords": [
+    "crypto",
+    "cryptography",
+    "solana",
+    "curve25519",
+    "ed25519",
+    "encrypt",
+    "nacl",
+    "signatures"
+  ],
   "author": "Saim Koii, Soma",
   "license": "MIT"
 }
