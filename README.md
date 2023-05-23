@@ -27,8 +27,8 @@ console.log("encrypted: ", encrypted);
 const decrypted = decrypt(
   encrypted,
   newNonce,
-  PublicKey_sender,
-  PrivateKey_receiver
+  publicKey_sender,
+  privateKey_receiver
 );
 ```
 
