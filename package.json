@@ -1,11 +1,11 @@
 {
   "name": "solana-encryption",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package lets you encrypt and decrypt messages using a solana keypair",
-  "main": "index.js",
+  "main": "lib/encryptDecrypt.js",
   "scripts": {
     "test": "node index.js"
   },
-  "author": "Saim Koii",
+  "author": "Saim Koii, Soma",
   "license": "MIT"
 }
