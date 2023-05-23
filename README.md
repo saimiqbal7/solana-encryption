@@ -13,11 +13,23 @@ yarn add solana-encryption
 ## Usage
 
 ```js
-const { encrypt, decrypt, nonce } = require('solana-encryption');
+const { encrypt, decrypt, nonce } = require("solana-encryption");
 
-const noce =  nonce();
-const encrypted = encrypt(message, nonce, publicKey_receiver, privateKey_sender);
-console.log('encrypted: ', encrypted);
+const newNonce = nonce();
+const encrypted = encrypt(
+  message,
+  nonce,
+  publicKey_receiver,
+  privateKey_sender
+);
+console.log("encrypted: ", encrypted);
+
+const decrypted = decrypt(
+  encrypted,
+  newNonce,
+  PublicKey_sender,
+  PrivateKey_receiver
+);
 ```
 
 ## Encrypt and Decrypt
