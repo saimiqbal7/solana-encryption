@@ -22,5 +22,12 @@
     "signatures"
   ],
   "author": "Saim Koii, Soma",
-  "license": "MIT"
+  "license": "MIT",
+  
+  "dependencies": {
+    "@solana/web3.js": "^1.76.0",
+    "bs58": "^5.0.0",
+    "ed2curve": "^0.3.0",
+    "tweetnacl": "^1.0.3"
+  }
 }
