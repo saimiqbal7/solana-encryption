@@ -8,12 +8,6 @@ function sign(message, secretKey) {
     return signature;
 }
 
-function verify(message, signature, publicKey) {
-
-    const encodedMessage = encode(message);
-    const verified = nacl.sign.detached.verify(encodedMessage, signature, publicKey)
-    return verified;
-}
 
 
-module.exports = {sign, verify};
+module.exports = {sign};
