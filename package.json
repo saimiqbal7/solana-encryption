@@ -1,6 +1,6 @@
 {
   "name": "solana-encryption",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "This package lets you encrypt and decrypt messages using a solana keypair",
   "main": "lib/encryptDecrypt.js",
   "scripts": {
