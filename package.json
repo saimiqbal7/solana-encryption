@@ -1,6 +1,6 @@
 {
   "name": "solana-encryption",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "This package lets you encrypt and decrypt messages using a solana keypair",
   "main": "lib/encryptDecrypt.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "nacl",
     "signatures"
   ],
-  "author": "Saim Koii, Soma",
+  "author": "Saim, Soma",
   "license": "MIT",
   
   "dependencies": {
